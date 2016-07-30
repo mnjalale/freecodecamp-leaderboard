@@ -1,0 +1,40 @@
+.header{
+  color: white;
+  background-color: green;
+  height:40px;
+}
+
+.sub-header{
+  height:40px;
+  background-color: #d3d3d3;
+  border-bottom: 1px solid grey;
+}
+
+.data-row{
+  height:60px;
+  background-color: white;
+  border-bottom: 1px solid grey;
+}
+
+.data-cell{
+  height:60px;
+}
+
+.link{
+  &:hover{
+    cursor: pointer;
+  }
+}
+
+.image{
+  border:10px;
+  border-color: grey;
+}
+
+.right-border{
+  border-right: 1px solid grey;
+}
+
+.header-text{
+  padding-top:6px;
+}
